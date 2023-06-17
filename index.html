@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>Bkc CV</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <div class="left">
+                    <div class="wrapper-img">
+                        <img src="./css.jpg" class="profile-img">
+                    </div>
+                    <div class="name">
+                        <h2>Ankit Kashyap</h2>
+                        <span>Homobakchodian Software Developer</span>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <span>
+                        I was born on 20th August, 2001
+                    </span>
+                    <p>
+                        Live in Deoghar
+                    </p>
+                    <p>
+                        Stu<strong>dying</strong> at BIT Mesra
+                    </p>
+                    <button onclick="playAudio()">Play Music</button>
+                    <button onclick="stopAudio()">Stop Music</button>
+
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="infoo">
+                <section class="two-side-wr">
+                    <div class="left-side">
+                        <h2>About me</h2>
+                    </div>
+                    <div class="right-side">
+                        A mind brimming with a plethora of codes, data structures, logistics, and analytics.
+
+                        Hardworking guy, full of enthusiasm, who also has a keen interest in graphic designing, video
+                        editing, animations , photography, gaming, etc.
+
+                        Consistently embroidering algorithms to tackle convoluted programming challenges.
+
+                        Passionately curious to explore, learn and grow.
+                    </div>
+                </section>
+                <hr class="hr">
+                <section class="two-side-wr">
+                    <div class="left-side">
+                        <h2> Skills</h2>
+                    </div>
+                    <div class="right-side">
+                        <p>
+                        <ul>
+                            <li>MERN Stack Web Development</li>
+                            <li>Graphic Designing</li>
+                            <li>Video Editing</li>
+                            <li>Animations</li>
+                            <li>Lead Generation</li>
+                            <li>UI/UX</li>
+                            <li>Bkc</li>
+                        </ul>
+                        </p>
+                        <br>
+                        <span>
+                            Above skills are just for show-off. <br>Come work with me and get to know the reality
+                        </span>
+                    </div>
+                </section>
+                <hr class="hr">
+                <section class="two-side-wr">
+                    <div class="left-side">
+                        <h2>Technologies</h2>
+                    </div>
+                    <div class="right-side">
+                        <p>My technologies are so weird. Nobody knows who I am</p>
+                        <br>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Sass</li>
+                            <li>Bootstrap</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Lightroom</li>
+                            <li>Gaming</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+<audio id="myAudio" src="css.mp3"></audio>
+
+
+
+<script>
+    function playAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.loop = true;
+        audio.play();
+    }
+
+    function stopAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.pause();
+    }
+</script>
+
+</html>
